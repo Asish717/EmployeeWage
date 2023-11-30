@@ -11,6 +11,7 @@ public class EmpWageBuilder {
         double empCheck=Math.floor(Math.random()*10)%2;
         if (empCheck==IS_FULL_TIME){
             empHrs=8;
+            System.out.println("nil");
         }
         else {
             empHrs=0;
